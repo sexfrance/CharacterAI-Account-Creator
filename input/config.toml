@@ -1,0 +1,4 @@
+[ dev ]
+Proxyless = true
+Debug = false
+Threads = 200 # Number of threads
