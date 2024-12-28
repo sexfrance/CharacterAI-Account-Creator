@@ -3,7 +3,7 @@
   <p align="center">
     A tool designed to automate the creation of accounts for Character.AI, featuring email verification, proxy support, and efficient batch processing.
 
-   I bypassed their shitty ahh captcha system, they dont even flag emails or headers.
+   I bypassed their shitty ahh captcha system, they don't even flag emails or headers. I made it quickly and it is 4 am so please forgive this shitty code
     <br />
     <br />
     <a href="https://discord.cyberious.xyz">💬 Discord</a>
