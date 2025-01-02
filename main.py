@@ -33,7 +33,6 @@ def debug(func_or_message, *args, **kwargs) -> callable:
 def debug_response(response) -> None:
     debug(response.text)
     debug(response.status_code)
-    debug(response.headers)
 
 class Miscellaneous:
     @debug
@@ -391,10 +390,8 @@ def main() -> None:
 
     except KeyboardInterrupt:
         log.info("Process interrupted by user. Exiting...")
-        title_updater.stop_title_updates()
     except Exception as e:
         log.failure(f"An unexpected error occurred: {e}")
-        title_updater.stop_title_updates()
 
 if __name__ == "__main__":
     main()
