@@ -31,6 +31,7 @@ def debug(func_or_message, *args, **kwargs) -> callable:
             log.debug(f"Debug: {func_or_message}")
 
 def debug_response(response) -> None:
+    debug(response.headers)
     debug(response.text)
     debug(response.status_code)
 
